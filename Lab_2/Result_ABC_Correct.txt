@@ -1,0 +1,64 @@
+Input Vector = <0, 0, 0>
+NODE : Color
+7 : 1 VCC
+5 : 1
+4 : 1 OUTPUT
+1 : X
+2 : 0 GND
+
+Input Vector = <0, 0, 1>
+NODE : Color
+7 : 1 VCC
+5 : 1
+4 : 1 OUTPUT
+1 : 1
+2 : 0 GND
+
+Input Vector = <0, 1, 0>
+NODE : Color
+7 : 1 VCC
+5 : 1
+4 : 1 OUTPUT
+1 : 0
+2 : 0 GND
+
+Input Vector = <0, 1, 1>
+NODE : Color
+7 : 1 VCC
+5 : 1
+4 : 0 OUTPUT
+1 : 0
+2 : 0 GND
+
+Input Vector = <1, 0, 0>
+NODE : Color
+7 : 1 VCC
+5 : 0
+4 : 0 OUTPUT
+1 : X
+2 : 0 GND
+
+Input Vector = <1, 0, 1>
+NODE : Color
+7 : 1 VCC
+5 : 0
+4 : 0 OUTPUT
+1 : 0
+2 : 0 GND
+
+Input Vector = <1, 1, 0>
+NODE : Color
+7 : 1 VCC
+5 : 0
+4 : 0 OUTPUT
+1 : 0
+2 : 0 GND
+
+Input Vector = <1, 1, 1>
+NODE : Color
+7 : 1 VCC
+5 : X
+4 : 0 OUTPUT
+1 : 0
+2 : 0 GND
+

@@ -1,0 +1,122 @@
+## LIBRARY
+GATES.LIB
+## RAILS
+
+## INPUTS
+1, 2, 3, 9, 10
+## OUTPUTS
+5 ; 12 ; 15
+## NETLIST
+G1 XOR_2 ; IN 1,2 ; OUT 4
+G2 XOR_2 ; IN 4,3 ; OUT 5
+G3 NAND_2 ; IN 4,3 ; OUT 6
+G4 NAND_2 ; IN 1,2 ; OUT 7
+G5 NAND_2 ; IN 6,7 ; OUT 8
+G6 XOR_2 ; IN 9,10 ; OUT 11
+G7 XOR_2 ; IN 11,8 ; OUT 12
+G8 NAND_2 ; IN 11,8 ; OUT 13
+G9 NAND_2 ; IN 9,10 ; OUT 14
+G10 NAND_2 ; IN 13,14 ; OUT 15
+## TESTBENCH
+## TEST_IN
+1, 2, 3, 9, 10
+## TEST_OUT
+5 ; 12 ; 15
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1
+## SIMULATE
+## END_TEST
+## END_SIMULATION

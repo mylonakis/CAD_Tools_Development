@@ -1,0 +1,56 @@
+Input Vector = <0, 0>
+NODE : Color
+1 : 1 VCC
+2 : 1
+3 : 0
+4 : 0 OUTPUT
+5 : X
+6 : 0
+7 : 0 GND
+8 : 1
+9 : 1
+10 : 1
+11 : 1
+
+Input Vector = <0, 1>
+NODE : Color
+1 : 1 VCC
+2 : 1
+3 : X
+4 : 1 OUTPUT
+5 : 0
+6 : 1
+7 : 0 GND
+8 : 0
+9 : 1
+10 : 1
+11 : 0
+
+Input Vector = <1, 0>
+NODE : Color
+1 : 1 VCC
+2 : X
+3 : 1
+4 : 1 OUTPUT
+5 : 1
+6 : 0
+7 : 0 GND
+8 : 1
+9 : 0
+10 : 0
+11 : 1
+
+Input Vector = <1, 1>
+NODE : Color
+1 : 1 VCC
+2 : 0
+3 : 1
+4 : 0 OUTPUT
+5 : 0
+6 : X
+7 : 0 GND
+8 : 0
+9 : 0
+10 : 0
+11 : 0
+

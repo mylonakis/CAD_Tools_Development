@@ -1,0 +1,1750 @@
+## RAILS
+VCC 101 ; GND 107
+## INPUTS
+1012 ; 1013 ; 1113 ; 1512 ; 1513 ; 2012 ; 2013 ; 2512 ; 2513 ; 
+## OUTPUTS
+114 ; 164 ; 214 ; 264 ; 294 ; 
+## NETLIST
+U1 PMOS 1012 101 102 
+U2 PMOS 109 101 103 
+U3 PMOS 108 102 104 
+U4 PMOS 1013 103 104 
+U5 NMOS 1012 104 105 
+U6 NMOS 1010 104 106 
+U7 NMOS 1013 105 107 
+U8 NMOS 1011 106 107 
+U9 PMOS 1013 101 108 
+U10 NMOS 1013 108 107 
+U11 PMOS 1012 101 109 
+U12 NMOS 1012 109 107 
+U13 PMOS 1012 101 1010 
+U14 NMOS 1012 1010 107 
+U15 PMOS 1013 101 1011 
+U16 NMOS 1013 1011 107 
+U17 PMOS 104 101 112 
+U18 PMOS 119 101 113 
+U19 PMOS 118 112 114 
+U20 PMOS 1113 113 114 
+U21 NMOS 104 114 115 
+U22 NMOS 1110 114 116 
+U23 NMOS 1113 115 107 
+U24 NMOS 1111 116 107 
+U25 PMOS 1113 101 118 
+U26 NMOS 1113 118 107 
+U27 PMOS 104 101 119 
+U28 NMOS 104 119 107 
+U29 PMOS 104 101 1110 
+U30 NMOS 104 1110 107 
+U31 PMOS 1113 101 1111 
+U32 NMOS 1113 1111 107 
+U33 PMOS 104 101 122 
+U34 PMOS 1113 101 122 
+U35 NMOS 104 122 123 
+U36 NMOS 1113 123 107 
+U37 PMOS 122 101 127 
+U38 NMOS 122 127 107 
+U39 PMOS 1012 101 132 
+U40 PMOS 1013 101 132 
+U41 NMOS 1012 132 133 
+U42 NMOS 1013 133 107 
+U43 PMOS 132 101 137 
+U44 NMOS 132 137 107 
+U45 PMOS 127 101 142 
+U46 PMOS 137 142 143 
+U47 NMOS 137 143 107 
+U48 NMOS 127 143 107 
+U49 PMOS 143 101 144 
+U50 NMOS 143 144 107 
+U51 PMOS 1512 101 152 
+U52 PMOS 159 101 153 
+U53 PMOS 158 152 154 
+U54 PMOS 1513 153 154 
+U55 NMOS 1512 154 155 
+U56 NMOS 1510 154 156 
+U57 NMOS 1513 155 107 
+U58 NMOS 1511 156 107 
+U59 PMOS 1513 101 158 
+U60 NMOS 1513 158 107 
+U61 PMOS 1512 101 159 
+U62 NMOS 1512 159 107 
+U63 PMOS 1512 101 1510 
+U64 NMOS 1512 1510 107 
+U65 PMOS 1513 101 1511 
+U66 NMOS 1513 1511 107 
+U67 PMOS 154 101 162 
+U68 PMOS 169 101 163 
+U69 PMOS 168 162 164 
+U70 PMOS 144 163 164 
+U71 NMOS 154 164 165 
+U72 NMOS 1610 164 166 
+U73 NMOS 144 165 107 
+U74 NMOS 1611 166 107 
+U75 PMOS 144 101 168 
+U76 NMOS 144 168 107 
+U77 PMOS 154 101 169 
+U78 NMOS 154 169 107 
+U79 PMOS 154 101 1610 
+U80 NMOS 154 1610 107 
+U81 PMOS 144 101 1611 
+U82 NMOS 144 1611 107 
+U83 PMOS 154 101 172 
+U84 PMOS 144 101 172 
+U85 NMOS 154 172 173 
+U86 NMOS 144 173 107 
+U87 PMOS 172 101 177 
+U88 NMOS 172 177 107 
+U89 PMOS 1512 101 182 
+U90 PMOS 1513 101 182 
+U91 NMOS 1512 182 183 
+U92 NMOS 1513 183 107 
+U93 PMOS 182 101 187 
+U94 NMOS 182 187 107 
+U95 PMOS 177 101 192 
+U96 PMOS 187 192 193 
+U97 NMOS 187 193 107 
+U98 NMOS 177 193 107 
+U99 PMOS 193 101 194 
+U100 NMOS 193 194 107 
+U101 PMOS 2012 101 202 
+U102 PMOS 209 101 203 
+U103 PMOS 208 202 204 
+U104 PMOS 2013 203 204 
+U105 NMOS 2012 204 205 
+U106 NMOS 2010 204 206 
+U107 NMOS 2013 205 107 
+U108 NMOS 2011 206 107 
+U109 PMOS 2013 101 208 
+U110 NMOS 2013 208 107 
+U111 PMOS 2012 101 209 
+U112 NMOS 2012 209 107 
+U113 PMOS 2012 101 2010 
+U114 NMOS 2012 2010 107 
+U115 PMOS 2013 101 2011 
+U116 NMOS 2013 2011 107 
+U117 PMOS 204 101 212 
+U118 PMOS 219 101 213 
+U119 PMOS 218 212 214 
+U120 PMOS 194 213 214 
+U121 NMOS 204 214 215 
+U122 NMOS 2110 214 216 
+U123 NMOS 194 215 107 
+U124 NMOS 2111 216 107 
+U125 PMOS 194 101 218 
+U126 NMOS 194 218 107 
+U127 PMOS 204 101 219 
+U128 NMOS 204 219 107 
+U129 PMOS 204 101 2110 
+U130 NMOS 204 2110 107 
+U131 PMOS 194 101 2111 
+U132 NMOS 194 2111 107 
+U133 PMOS 204 101 222 
+U134 PMOS 194 101 222 
+U135 NMOS 204 222 223 
+U136 NMOS 194 223 107 
+U137 PMOS 222 101 227 
+U138 NMOS 222 227 107 
+U139 PMOS 2012 101 232 
+U140 PMOS 2013 101 232 
+U141 NMOS 2012 232 233 
+U142 NMOS 2013 233 107 
+U143 PMOS 232 101 237 
+U144 NMOS 232 237 107 
+U145 PMOS 227 101 242 
+U146 PMOS 237 242 243 
+U147 NMOS 237 243 107 
+U148 NMOS 227 243 107 
+U149 PMOS 243 101 244 
+U150 NMOS 243 244 107 
+U151 PMOS 2512 101 252 
+U152 PMOS 259 101 253 
+U153 PMOS 258 252 254 
+U154 PMOS 2513 253 254 
+U155 NMOS 2512 254 255 
+U156 NMOS 2510 254 256 
+U157 NMOS 2513 255 107 
+U158 NMOS 2511 256 107 
+U159 PMOS 2513 101 258 
+U160 NMOS 2513 258 107 
+U161 PMOS 2512 101 259 
+U162 NMOS 2512 259 107 
+U163 PMOS 2512 101 2510 
+U164 NMOS 2512 2510 107 
+U165 PMOS 2513 101 2511 
+U166 NMOS 2513 2511 107 
+U167 PMOS 254 101 262 
+U168 PMOS 269 101 263 
+U169 PMOS 268 262 264 
+U170 PMOS 244 263 264 
+U171 NMOS 254 264 265 
+U172 NMOS 2610 264 266 
+U173 NMOS 244 265 107 
+U174 NMOS 2611 266 107 
+U175 PMOS 244 101 268 
+U176 NMOS 244 268 107 
+U177 PMOS 254 101 269 
+U178 NMOS 254 269 107 
+U179 PMOS 254 101 2610 
+U180 NMOS 254 2610 107 
+U181 PMOS 244 101 2611 
+U182 NMOS 244 2611 107 
+U183 PMOS 254 101 272 
+U184 PMOS 244 101 272 
+U185 NMOS 254 272 273 
+U186 NMOS 244 273 107 
+U187 PMOS 272 101 277 
+U188 NMOS 272 277 107 
+U189 PMOS 2512 101 282 
+U190 PMOS 2513 101 282 
+U191 NMOS 2512 282 283 
+U192 NMOS 2513 283 107 
+U193 PMOS 282 101 287 
+U194 NMOS 282 287 107 
+U195 PMOS 277 101 292 
+U196 PMOS 287 292 293 
+U197 NMOS 287 293 107 
+U198 NMOS 277 293 107 
+U199 PMOS 293 101 294 
+U200 NMOS 293 294 107 
+## TESTBENCH
+## TEST_IN
+1012 ; 1013 ; 1113 ; 1512 ; 1513 ; 2012 ; 2013 ; 2512 ; 2513 ; 
+## TEST_OUT
+114 ; 164 ; 214 ; 264 ; 294 ; 
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 1 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 0 ; 
+## SIMULATE
+## TEST_VECTORS
+1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 1 ; 
+## SIMULATE
+## END_TEST
+## END_SIMULATION
